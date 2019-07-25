@@ -1,0 +1,37 @@
+
+html {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  font-size: 16px;
+}
+
+.duvidas-frequentes {
+  font-family: "Poppins";
+  font-weight: 500;
+  color: #03A9F4;
+  height: 45px;
+  width: 314px;
+}
+
+.menu{
+  font-family: "Poppins";
+  font-weight: 400;
+  color: #9E9E9E;
+  font-size: 12px;
+}
+
+a{
+  text-decoration: none;
+}
+ 
+.box-question{
+  font-family: "Poppins";
+  font-weight: 500;
+  color:#607D8B;
+}
+
+.icon-chat{
+  background-color: #15B35A;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+}
