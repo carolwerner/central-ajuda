@@ -45,9 +45,17 @@ a {
 }
  
 .box-question {
-  font-family: "Poppins";
-  font-weight: 500;
-  color:#607D8B;
+  
+}
+
+.text-question {
+font-family: "Poppins";
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0;
+color:#607D8B;
+margin: 0;
 }
 
 .icon-chat {
