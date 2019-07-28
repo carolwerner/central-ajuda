@@ -10,8 +10,7 @@ html {
   align-items: center;
   border-bottom: 1px solid #D6D6D6;
   width: 100%;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  height: 56px;
 }
  
 .logo {
@@ -51,6 +50,7 @@ html {
   align-items: center;
   margin-left: 16px;
   padding-left: 16px;
+  margin-right: 32px;
 }
 
 .icon-user {
@@ -59,7 +59,7 @@ html {
   margin-left: 8px;
 }
 
-.duvidas-frequentes {
+.titulo-secundario {
   font-family: "Poppins";
   font-size: 32px;
   font-weight: 500;
@@ -68,6 +68,13 @@ html {
   color: #03A9F4;
   height: 45px;
   text-align: left;
+  margin-top: 64px;
+  margin-bottom: 56px;
+
+}
+
+.duvidas.active {
+  border-bottom: 3px solid #03A9F4;
 }
 
 .main {
@@ -100,6 +107,7 @@ a {
   float: right;
   margin-right: 40px;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .image-chat{
@@ -109,16 +117,20 @@ a {
   flex-direction: row;
   display: flex;
   flex-wrap: nowrap;
-  margin-left: 24px;
+  align-self: stretch;
+  align-items: center;
 
 }
 .menu {
   display: flex;
-  margin: 5px;
+  margin-left: 24px;
   font-family: "Poppins";
   font-weight: 400;
   color: #9E9E9E;
   font-size: 12px;
+  border-bottom: 3px solid transparent;
+  align-self: stretch;
+  align-items: center;
 }
 
 .question {
@@ -136,4 +148,22 @@ a {
   height: 24px;
   width: 24px;
   margin-left: auto;
+}
+
+.bolinhas{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-right: 26px;
+  margin-top: 32px;
+}
+
+.bolinha{
+  box-sizing: border-box;
+  border-radius: 50%;
+  background-color: red;
+  height: 12px;
+  width: 12px;
+  margin-right: 26px;
+  margin-top: 32px;
 }
