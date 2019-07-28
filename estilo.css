@@ -4,24 +4,59 @@ html {
   font-size: 16px;
 }
 
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #D6D6D6;
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+ 
+.logo {
+  margin: 0 8px 0 32px;
+}
+
+
 .onde-comecar {
+  display: flex;
+  flex: 0 0 auto;
   font-family: "Poppins";
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0;
   text-align: center;
   color:#FFFFFF;
   background-color: #15B35A;
   border-radius: 20px;
-  width: 166px;
-  height: 40px;
+  padding: 9px 16px 11px 16px;
+  margin-left: auto;
 }
 
 .user {
-  font-weight: 400;
-  color:#000000;
+  display: flex;
+  flex: 0 0 auto;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: right;
+  color:rgba(0, 0, 0, 0.87);
   border: 1px solid #D6D6D6;
-  width: 148px;
-  height: 40px;
   border-radius: 20px;
+  padding: 4px 4px 4px 16px;
+  align-items: center;
+  margin-left: 16px;
+  padding-left: 16px;
+}
+
+.icon-user {
+  display: flex;
+  align-items: center;  
+  margin-left: 8px;
 }
 
 .duvidas-frequentes {
@@ -44,18 +79,15 @@ a {
   text-decoration: none;
 }
  
-.box-question {
-  
-}
 
 .text-question {
-font-family: "Poppins";
-font-size: 20px;
-font-weight: 500;
-line-height: 30px;
-letter-spacing: 0;
-color:#607D8B;
-margin: 0;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0;
+  color:#607D8B;
+  margin: 0;
 }
 
 .icon-chat {
@@ -77,6 +109,8 @@ margin: 0;
   flex-direction: row;
   display: flex;
   flex-wrap: nowrap;
+  margin-left: 24px;
+
 }
 .menu {
   display: flex;
