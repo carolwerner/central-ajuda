@@ -32,6 +32,7 @@ html {
   border-radius: 20px;
   padding: 9px 16px 11px 16px;
   margin-left: auto;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.16);
 }
 
 .user {
@@ -73,10 +74,6 @@ html {
 
 }
 
-.duvidas.active {
-  border-bottom: 3px solid #03A9F4;
-}
-
 .main {
   margin-left: 80px;
   margin-right: 80px;
@@ -86,6 +83,10 @@ a {
   text-decoration: none;
 }
  
+.duvidas.active {
+  border-bottom: 3px solid #03A9F4;
+  color:#607D8B;
+}
 
 .text-question {
   font-family: "Poppins";
@@ -97,22 +98,12 @@ a {
   margin: 0;
 }
 
-.icon-chat {
-  background-color: #15B35A;
-  height: 64px;
-  width: 64px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  float: right;
-  margin-right: 40px;
-  margin-bottom: 40px;
-  text-align: center;
+.baseline-keyboard{
+  height: 24px;
+  width: 24px;
+  margin-left: auto;
 }
 
-.image-chat{
-  margin: auto;
-}
 .caixa {
   flex-direction: row;
   display: flex;
@@ -144,18 +135,30 @@ a {
   align-items: center;
 }
 
-.baseline-keyboard{
-  height: 24px;
-  width: 24px;
-  margin-left: auto;
+.icon-chat {
+  background-color: #15B35A;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  float: right;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.20);
+}
+
+.image-chat{
+  margin: auto;
 }
 
 .bolinhas{
   position: absolute;
   display: flex;
   flex-direction: column;
-  margin-right: 26px;
-  margin-top: 32px;
+  
+  
 }
 
 .bolinha{
@@ -166,4 +169,8 @@ a {
   width: 12px;
   margin-right: 26px;
   margin-top: 32px;
+}
+
+.bolinha.active{
+  background-color: #03A9F4;
 }
