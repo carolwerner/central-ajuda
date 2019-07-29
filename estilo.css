@@ -13,6 +13,10 @@ html {
   height: 56px;
 }
  
+.body{
+  position: relative;
+}
+
 .logo {
   margin: 0 8px 0 32px;
 }
@@ -157,14 +161,14 @@ a {
   position: absolute;
   display: flex;
   flex-direction: column;
-  
-  
+  top: 50%;
+  right: 16px;
 }
 
 .bolinha{
   box-sizing: border-box;
   border-radius: 50%;
-  background-color: red;
+  background-color:#D6D6D6;
   height: 12px;
   width: 12px;
   margin-right: 26px;
